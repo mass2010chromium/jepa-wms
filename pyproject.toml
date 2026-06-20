@@ -64,7 +64,7 @@ dependencies = [
     "pybullet",
     "mujoco>=3.2.0",
     "dm-control>=1.0.34",
-    "metaworld",
+    # "metaworld",
     # PointMaze environment (requires both mujoco and mujoco-py)
     "d4rl",
     "cython<3.0", # Required for mujoco-py compatibility
@@ -83,7 +83,7 @@ dev = [
 ]
 
 [tool.uv.sources]
-metaworld = { git = "https://github.com/Farama-Foundation/Metaworld.git", branch = "master" }
+# metaworld = { git = "https://github.com/Farama-Foundation/Metaworld.git", branch = "master" }
 d4rl = { git = "git+https://github.com/Farama-Foundation/D4RL.git", branch = "master" }
 
 # NOTE: robocasa and robosuite must be installed manually from source.

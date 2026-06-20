@@ -110,7 +110,7 @@ model_kwargs:
             use_activation_checkpointing: false
             proprio_dim: 4
       pretrain_dec_path:
-        state_head: ${JEPAWM_LOGS}/pt/step2_pt_state_head_dinovits_r224/jepa-latest.pth.tar
+        #state_head: ${JEPAWM_LOGS}/pt/step2_pt_state_head_dinovits_r224/jepa-latest.pth.tar
         image_head: https://dl.fbaipublicfiles.com/jepa-wms/vm2m_lpips_dv2vits_vitldec_224_INet.pth.tar
   data:
     dataset_type: custom
