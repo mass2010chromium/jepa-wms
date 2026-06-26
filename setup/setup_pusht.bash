@@ -9,4 +9,4 @@ source set_env.sh
 hf download facebook/jepa-wms jepa_wm_pusht.pth.tar --local-dir checkpoints
 
 cd "$SCRIPT_DIR/logs/pt_sweep/pt_4f_fsk5_ask1_r224_vjtranoaug_predAdaLN_ftprop_depth6_repro_2roll_save/"
-ln -sT ../../../jepa_wm_pusht.pth.tar jepa-latest.pth.tar
+ln -sT ../../../checkpoints/jepa_wm_pusht.pth.tar jepa-latest.pth.tar
